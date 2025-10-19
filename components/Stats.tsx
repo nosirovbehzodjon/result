@@ -31,6 +31,15 @@ export const Stats = () => {
   return (
     <section className="py-20 relative">
       <div className="container mx-auto px-6">
+        <div className="text-center space-y-4 mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+            Our Stats
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Choose the program that best fits your needs and start building
+            unshakeable confidence today.
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => {
             const Icon = stat.icon;
