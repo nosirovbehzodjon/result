@@ -1,6 +1,6 @@
-import { HeroSection } from "@/components/Hero";
-import { StatsSection } from "@/components/stats-section";
-import { ResultsSection } from "@/components/results-section";
+import { Hero } from "@/components/Hero";
+import { Stats } from "@/components/Stats";
+import { Results } from "@/components/Results";
 import { Footer } from "@/components/Footer";
 import { Faq } from "@/components/Faq";
 import { Contact } from "@/components/Contact";
@@ -9,9 +9,9 @@ import { Services } from "@/components/Services";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <HeroSection />
-      <StatsSection />
-      <ResultsSection />
+      <Hero />
+      <Stats />
+      <Results />
       <About />
       <Services />
       <Contact />

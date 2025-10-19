@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Header } from "@/components/Header";
 import Image from "next/image";
-export function HeroSection() {
+export const Hero = () => {
   return (
     <section className="relative">
       <Header />
@@ -58,4 +58,4 @@ export function HeroSection() {
       </div>
     </section>
   );
-}
+};

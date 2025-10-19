@@ -19,7 +19,7 @@ interface StudentCardProps {
   };
 }
 
-export function StudentCard({ student }: StudentCardProps) {
+export const Students = ({ student }: StudentCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
   console.log(isHovered);
@@ -97,4 +97,4 @@ export function StudentCard({ student }: StudentCardProps) {
       </div> */}
     </Card>
   );
-}
+};
